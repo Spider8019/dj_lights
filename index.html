@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico">
+  <title>DJ LIGHTS-SPIDER8019</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo">
+  <style>
+    td{
+      font-size:5vw;
+      border:1px solid #00ccff;
+      text-align:center;
+    }
+  </style>
+<script>
+function p() {
+  for (var j = 1; j < 169; j++) {
+    document.getElementById(j).style.backgroundColor = "black";
+    document.getElementById(j).style.color = "black";
+    document.getElementById(j).style.boxShadow = "0px 0px 20px #00ccff";
+  }
+
+}
+function f() {
+  for (var j = 1; j < 169; j++) {
+    document.getElementById(j).style.backgroundColor = "black";
+    document.getElementById(j).style.color = "black";
+    document.getElementById(j).style.boxShadow = "0px 0px 20px orange";
+  }
+  setTimeout(p,200);
+}
+function a1(a,b) {
+         document.getElementById(a).style.backgroundColor="black" ;
+         document.getElementById(a).style.color="black" ;
+         document.getElementById(a).style.boxShadow="0px 0px 20px black" ;
+         document.getElementById(b).style.backgroundColor="black" ;
+         document.getElementById(b).style.color="black" ;
+         document.getElementById(b).style.boxShadow="0px 0px 20px black" ;
+        }
+function f1(x) {
+  switch(x){
+    case 1: setInterval(f,400);
+             break;
+    case 2:
+            function a2()
+            {
+            var a=Math.floor((Math.random() * 170) + 1);
+            var b=Math.floor((Math.random() * 170) + 1);
+            document.getElementById(a).style.backgroundColor = "#00ccff";
+            document.getElementById(a).style.color = "#00ccff";
+            document.getElementById(a).style.boxShadow = "0px 0px 20px #00ccff";
+            document.getElementById(b).style.backgroundColor = "#00ccff";
+            document.getElementById(b).style.color = "#00ccff";
+            document.getElementById(b).style.boxShadow = "0px 0px 20px #00ccff";
+            setTimeout(a1(a,b),20);
+            }
+            setInterval(a2,20);
+            break;
+        default:document.getElementById("123").style.backgroundColor="orange";
+      }}
+function a4(){setInterval(a3,100);}
+function a3(){
+var s="#";
+for(var i=0;i<6;i++)
+{
+var a=Math.floor(Math.random() * 16);
+switch(a)
+ {case 0:s+='0';
+     break;
+  case 1:s+='1';
+     break;
+  case 2:s+='2';
+     break;
+  case 3:s+='3';
+     break;
+  case 4:s+='4';
+     break;
+  case 5:s+='5';
+     break;
+  case 6:s+='6';
+     break;
+  case 7:s+='7';
+     break;
+  case 8:s+='8';
+     break;
+  case 9:s+='9';
+     break;
+  case 10:s+='a';
+     break;
+  case 11:s+='b';
+     break;
+  case 12:s+='c';
+     break;
+  case 13:s+='d';
+     break;
+  case 14:s+='e';
+     break;
+   case 15:s+='f';
+     break;
+ }
+}for(var j=1;j<22;j++)
+ {document.getElementById(j).style.backgroundColor=s;
+ document.getElementById(j).style.boxShadow="0px 0px 20px white";
+ document.getElementById(j).style.color=s;
+  document.getElementById(j).style.border="1px solid black";
+document.getElementById(j).style.transition=".05s";}
+}
+///////////////////////////////////////////////////
+// //////////////////////////////////////////////////
+
+function a5(a)
+ {for(var j=a;j<a+11;j++)
+   {document.getElementById(j).style.backgroundColor="#00ccff";
+   document.getElementById(j).style.boxShadow="0px 0px 20px #00ccff";}
+ }
+function a6(){
+
+         for(var j=111;j<122;j++)
+                    {document.getElementById(j).style.backgroundColor="#00ccff";
+                    document.getElementById(j).style.boxShadow="0px 0px 20px #00ccff";}
+              setInterval(a7,10);
+
+  }
+  function a8(a,b) {
+     document.getElementById(a).style.backgroundColor="black" ;
+     document.getElementById(a).style.color="black" ;
+     document.getElementById(a).style.boxShadow="0px 0px 20px black" ;
+     document.getElementById(b).style.backgroundColor="black" ;
+     document.getElementById(b).style.color="black" ;
+     document.getElementById(b).style.boxShadow="0px 0px 20px black" ;
+    }
+
+    function a7()
+    {
+    var a=Math.floor((Math.random() * 170) + 1);
+    var b=Math.floor((Math.random() * 170) + 1);
+    if((a<111 || a>121)&&(b<111 || b>121))
+       {
+            document.getElementById(a).style.backgroundColor = "#00ccff";
+            document.getElementById(a).style.color = "#00ccff";
+            document.getElementById(a).style.boxShadow = "0px 0px 20px #00ccff";
+            document.getElementById(b).style.backgroundColor = "#00ccff";
+            document.getElementById(b).style.color = "#00ccff";
+            document.getElementById(b).style.boxShadow = "0px 0px 20px #00ccff";
+            setTimeout(a8(a,b),5);
+          }
+    }
+
+
+
+</script>
+
+  </head>
+  <body bgcolor="black">
+    <table cellspacing="9" align="center">
+      <tr>
+        <td id="1" onclick="f1(1)" type="button" /></td>
+          <td id="2" onclick="f1(2)"></td>
+            <td id="3" onclick="a4()"></td>
+              <td id="4" onclick="a5(111)"></td>
+                <td id="5"onclick="a6()"></td>
+                  <td id="6"></td>
+                    <td id="7" >O</td>
+                      <td id="8" style="border:1px solid #00ccff";>O</td>
+                        <td id="9" style="border:1px solid #00ccff";>O</td>
+                          <td id="10" style="border:1px solid #00ccff";>O</td>
+                            <td id="11" style="border:1px solid #00ccff";>O</td>
+                              <td id="12"style="border:1px solid #00ccff";>O</td>
+                                <td id="13" style="border:1px solid #00ccff";>O</td>
+                                  <td id="14" style="border:1px solid #00ccff";>O</td>
+                                    <td id="15" style="border:1px solid #00ccff";>O</td>
+                                      <td id="16"style="border:1px solid #00ccff";>O</td>
+                                        <td id="17" style="border:1px solid #00ccff";>O</td>
+                                         <td id="18" style="border:1px solid #00ccff";>O</td>
+                                          <td id="19"style="border:1px solid #00ccff";>O</td>
+
+                                            <td id="20" style="border:1px solid #00ccff";>O</td>
+                                            <td id="21" style="border:1px solid #00ccff";>O</td>
+        </tr>
+        <tr>
+          <td id="22">.</td>
+            <td id="23" style="border:1px solid #00ccff";>o</td>
+
+                <td id="24" style="border:1px solid #00ccff";>o</td>
+                  <td id="25" style="border:1px solid #00ccff";>o</td>
+                    <td id="26" style="border:1px solid #00ccff";>o</td>
+                      <td id="27" style="border:1px solid #00ccff";>o</td>
+                        <td id="28" style="border:1px solid #00ccff";>o</td>
+                          <td id="29" style="border:1px solid #00ccff";>o</td>
+                            <td id="30" style="border:1px solid #00ccff";>o</td>
+                              <td id="31" style="border:1px solid #00ccff";>o</td>
+                                <td id="32"style="border:1px solid #00ccff";>o</td>
+                                  <td id="33" style="border:1px solid #00ccff";>o</td>
+                                    <td id="34" style="border:1px solid #00ccff";>o</td>
+                                      <td id="35" style="border:1px solid #00ccff";></td>
+                                        <td id="36"style="border:1px solid #00ccff";></td>
+                                          <td id="37" style="border:1px solid #00ccff";></td>
+                                           <td id="38" style="border:1px solid #00ccff";></td>
+                                            <td id="39"style="border:1px solid #00ccff";></td>
+
+                                              <td id="40" style="border:1px solid #00ccff";></td>
+                                              <td id="41"></td>
+                                              <td id="42" style="border:1px solid #00ccff";>.</td>
+          </tr><tr>
+            <td id="43"style="border:1px solid #00ccff";>.</td>
+              <td id="44" style="border:1px solid #00ccff";></td>
+                <td id="45" style="border:1px solid #00ccff";></td>
+                  <td id="46" style="border:1px solid #00ccff";></td>
+                    <td id="47" style="border:1px solid #00ccff";></td>
+                      <td id="48" style="border:1px solid #00ccff";>#</td>
+                        <td id="49" style="border:1px solid #00ccff";>S</td>
+                          <td id="50" style="border:1px solid #00ccff";>P</td>
+                            <td id="51" style="border:1px solid #00ccff";>I</td>
+                              <td id="52" style="border:1px solid #00ccff";>D</td>
+                                <td id="53" style="border:1px solid #00ccff";>E</td>
+                                  <td id="54"style="border:1px solid #00ccff";>R</td>
+                                    <td id="55" style="border:1px solid #00ccff";>8</td>
+                                      <td id="56" style="border:1px solid #00ccff";>0</td>
+                                        <td id="57" style="border:1px solid #00ccff";>1</td>
+                                          <td id="58"style="border:1px solid #00ccff";>9</td>
+                                            <td id="59" style="border:1px solid #00ccff";></td>
+                                             <td id="60" style="border:1px solid #00ccff";></td>
+                                              <td id="61"style="border:1px solid #00ccff";></td>
+
+                                                <td id="62" style="border:1px solid #00ccff";></td>
+                                                <td id="63" style="border:1px solid #00ccff";>.</td>
+            </tr><tr>
+              <td id="64"style="border:1px solid #00ccff";>.</td>
+                <td id="65" style="border:1px solid #00ccff";></td>
+                  <td id="66" style="border:1px solid #00ccff";></td>
+                    <td id="67" style="border:1px solid #00ccff";></td>
+                      <td id="68" style="border:1px solid #00ccff";></td>
+                        <td id="69" style="border:1px solid #00ccff";></td>
+                          <td id="70" style="border:1px solid #00ccfF";></td>
+                            <td id="71" style="border:1px solid #00ccff";></td>
+                              <td id="72" style="border:1px solid #00ccff";></td>
+                                <td id="73" style="border:1px solid #00ccff";></td>
+                                  <td id="74" style="border:1px solid #00ccff";></td>
+                                    <td id="75"style="border:1px solid #00ccff";></td>
+                                      <td id="76" style="border:1px solid #00ccff";></td>
+                                        <td id="77" style="border:1px solid #00ccff";></td>
+                                          <td id="78" style="border:1px solid #00ccff";></td>
+                                            <td id="79"style="border:1px solid #00ccff";></td>
+                                              <td id="80" style="border:1px solid #00ccff";></td>
+                                               <td id="81" style="border:1px solid #00ccff";></td>
+                                                <td id="82"style="border:1px solid #00ccff";></td>
+
+                                                  <td id="83" style="border:1px solid #00ccff";></td>
+                                                  <td id="84" style="border:1px solid #00ccff";>.</td>
+              </tr>
+              <tr>
+                <td id="85"style="border:1px solid #00ccff";>.</td>
+                  <td id="86" style="border:1px solid #00ccff";></td>
+                    <td id="87" style="border:1px solid #00ccff";></td>
+                      <td id="88" style="border:1px solid #00ccff";></td>
+                        <td id="89" style="border:1px solid #00ccff";></td>
+                          <td id="90" style="border:1px solid #00ccff";></td>
+                            <td id="91" style="border:1px solid #00ccff";></td>
+                              <td id="92" style="border:1px solid #00ccff";></td>
+                                <td id="93" style="border:1px solid #00ccff";></td>
+                                  <td id="94" style="border:1px solid #00ccff";></td>
+                                    <td id="95" style="border:1px solid #00ccff";></td>
+                                      <td id="96"style="border:1px solid #00ccff";></td>
+                                        <td id="97" style="border:1px solid #00ccff";></td>
+                                          <td id="98" style="border:1px solid #00ccff";></td>
+                                            <td id="99" style="border:1px solid #00ccff";></td>
+                                              <td id="100"style="border:1px solid #00ccff";></td>
+                                                <td id="101" style="border:1px solid #00ccff";></td>
+                                                 <td id="102" style="border:1px solid #00ccff";></td>
+                                                  <td id="103"style="border:1px solid #00ccff";></td>
+
+                                                    <td id="104" style="border:1px solid #00ccff";></td>
+                                                    <td id="105" style="border:1px solid #00ccff";>.</td>
+                </tr>
+                <tr>  <td id="106"style="border:1px solid #00ccff";>.</td>
+                    <td id="107" style="border:1px solid #00ccff";></td>
+                      <td id="108" style="border:1px solid #00ccff";></td>
+                        <td id="109" style="border:1px solid #00ccff";></td>
+                          <td id="110" style="border:1px solid #00ccff";></td>
+                            <td id="111" onclick="a5(111)">#</td>
+                              <td id="112" style="border:1px solid #00ccff";>S</td>
+                                <td id="113" style="border:1px solid #00ccff";>P</td>
+                                  <td id="114" style="border:1px solid #00ccff";>I</td>
+                                    <td id="115" style="border:1px solid #00ccff";>D</td>
+                                      <td id="116" style="border:1px solid #00ccff";>E</td>
+                                        <td id="117"style="border:1px solid #00ccff";>R</td>
+                                          <td id="118" style="border:1px solid #00ccff";>8</td>
+                                            <td id="119" style="border:1px solid #00ccff";>0</td>
+                                              <td id="120" style="border:1px solid #00ccff";>1</td>
+                                                <td id="121"style="border:1px solid #00ccff";>9</td>
+                                                  <td id="122" style="border:1px solid #00ccff";></td>
+                                                   <td id="123" style="border:1px solid #00ccff";></td>
+                                                    <td id="124"style="border:1px solid #00ccff";></td>
+
+                                                      <td id="125" style="border:1px solid #00ccff";></td>
+                                                      <td id="126" style="border:1px solid #00ccff";>.</td>
+                  </tr><tr>
+                    <td id="127"style="border:1px solid #00ccff";>.</td>
+                      <td id="128" style="border:1px solid #00ccff";></td>
+                        <td id="129" style="border:1px solid #00ccff";></td>
+                          <td id="130" style="border:1px solid #00ccff";></td>
+                            <td id="131" style="border:1px solid #00ccff";></td>
+                              <td id="132" style="border:1px solid #00ccff";></td>
+                                <td id="133" style="border:1px solid #00ccff";></td>
+                                  <td id="134" style="border:1px solid #00ccff";></td>
+                                    <td id="135" style="border:1px solid #00ccff";></td>
+                                      <td id="136" style="border:1px solid #00ccff";></td>
+                                        <td id="137" style="border:1px solid #00ccff";></td>
+                                          <td id="138"style="border:1px solid #00ccff";></td>
+                                            <td id="139" style="border:1px solid #00ccff";></td>
+                                              <td id="140" style="border:1px solid #00ccff";></td>
+                                                <td id="141" style="border:1px solid #00ccff";></td>
+                                                  <td id="142"style="border:1px solid #00ccff";></td>
+                                                    <td id="143" style="border:1px solid #00ccff";></td>
+                                                     <td id="144" style="border:1px solid #00ccff";></td>
+                                                      <td id="145"style="border:1px solid #00ccff";></td>
+
+                                                        <td id="146" style="border:1px solid #00ccff";></td>
+                                                        <td id="147" style="border:1px solid #00ccff";>.</td>
+                    </tr><tr>
+                      <td id="148"style="border:1px solid #00ccff";>O</td>
+                        <td id="149" style="border:1px solid #00ccff";>O</td>
+                          <td id="150" style="border:1px solid #00ccff";>O</td>
+                            <td id="151" style="border:1px solid #00ccff";>O</td>
+                              <td id="152" style="border:1px solid #00ccff";>O</td>
+                                <td id="153" style="border:1px solid #00ccff";>O</td>
+                                  <td id="154" style="border:1px solid #00ccff";>O</td>
+                                    <td id="155" style="border:1px solid #00ccff";>O</td>
+                                      <td id="156" style="border:1px solid #00ccff";>O</td>
+                                        <td id="157" style="border:1px solid #00ccff";>O</td>
+                                          <td id="158" style="border:1px solid #00ccff";>O</td>
+                                            <td id="159"style="border:1px solid #00ccff";>O</td>
+                                              <td id="160" style="border:1px solid #00ccff";>O</td>
+                                                <td id="161" style="border:1px solid #00ccff";>O</td>
+                                                  <td id="162" style="border:1px solid #00ccff";>O</td>
+                                                    <td id="163"style="border:1px solid #00ccff";>O</td>
+                                                      <td id="164" style="border:1px solid #00ccff";>O</td>
+
+                                                        <td id="165"style="border:1px solid #00ccff";>O</td>
+
+                                                          <td id="166" style="border:1px solid #00ccff";>O</td>
+                                                            <td id="167" style="border:1px solid #00ccff";>O</td>
+                                                          <td id="168" style="border:1px solid #00ccff;cursor:none";>O</td>
+                      </tr>
+      </table>
+
+    </body>
+</html>
